@@ -1,5 +1,11 @@
 <svg version="1.1" width="1048576" height="1048576" xmlns="http://www.w3.org/2000/svg">
-	<rect id="rect" x="0" y="0" width="1048576" height="1048576" style="fill: pink;"></rect>
+      <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="50%" stop-color="black" stop-opacity="0"/>
+        <stop offset="100%" stop-color="blue"/>
+      </linearGradient>
+      
+	<rect id="rect" x="0" y="0" width="1048576" height="1048576" fill="url(#Gradient2)"></rect>
 	<text id="text" x="128" y="128" width="64" height="64">disabled</text>
     <script>
     	document.getElementById('text').textContent = 'enabled';
