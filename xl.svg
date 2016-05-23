@@ -9,6 +9,5 @@
 	<text id="text" x="128" y="128" width="64" height="64">disabled</text>
     <script>
     	document.getElementById('text').textContent = 'enabled';
-    	document.getElementById('rect').style.fill = 'lime';
     </script>
 </svg>
